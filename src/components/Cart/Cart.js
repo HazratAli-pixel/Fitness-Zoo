@@ -17,8 +17,8 @@ const Cart = ({cart}) => {
                     <img src={imgUrl} className="card-img-top rounded-3" onError={(e)=>{e.currentTarget.src='https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/856e874762eb48da8e22acda00efaeb4_9366/Tiro_Track_Pants_Black_GN5490_21_model.jpg'}} alt=""></img>
                 </div>
                 <div className="p-2 mb-5">
-                    <h4 className='m-0 text-start fw-bolder'>{title}</h4>
-                    <p className='m-0 text-start text-muted'>{description}</p>
+                    <h4 className='m-0 pb-3 text-start fw-bolder'>{title}</h4>
+                    <p className='m-0 text-start text-muted'>{description.slice(0,100)}...</p>
                     <p className='m-0 text-start'><small>For age: {age}</small></p>
                     <p className='m-0 text-start'>Time Required: {time} s</p>
                 </div>

@@ -12,6 +12,8 @@ const Contentsection = () => {
         .then(data => setinfo(data));
     },[])
 
+
+
     console.log(info);
     return(
         <div className='shop-container container'>
