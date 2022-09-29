@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "routine-xyx-0001",
+    "title": "Md. Hazrat Ali",
+    "description": "fdasdfsafsadfsa",
+    "time": 30,
+    "imgUrl": "https://www.thespruce.com/thmb/DWdIFMAGHQkZZIebmVstvaGJfyU=/2880x1920/filters:fill(auto,1)/how-to-create-daily-routine-hero-bdef1687b3e1477a9edf64f3b9790183.jpg",
+    "age": 30
+  },
+  {
+    "_id": "routine-xyx-0002",
+    "title": "saf",
+    "description": "Md. Omar Ali",
+    "time": 30,
+    "imgUrl": "https://www.thespruce.com/thmb/DWdIFMAGHQkZZIebmVstvaGJfyU=/2880x1920/filters:fill(auto,1)/how-to-create-daily-routine-hero-bdef1687b3e1477a9edf64f3b9790183.jpg",
+    "age": 30
+  },
+  {
+    "_id": "routine-xyx-0003",
+    "title": "Md. Ruhul Amin",
+    "description": "fdasdfsafsadfsa",
+    "time": 30,
+    "imgUrl": "https://www.thespruce.com/thmb/DWdIFMAGHQkZZIebmVstvaGJfyU=/2880x1920/filters:fill(auto,1)/how-to-create-daily-routine-hero-bdef1687b3e1477a9edf64f3b9790183.jpg",
+    "age": 30
+  }
+]
