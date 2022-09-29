@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 const Cart = ({cart, handleClick}) => {
-    const {_id, title, description,time,imgUrl, age} = cart;
+    const {title, description,time,imgUrl, age} = cart;
     return (
         <div className='col-4 pb-2 p-2'>
             <div className="card h-100 position-relative" data-aos="fade-up" data-aos-duration="3000">
