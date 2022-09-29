@@ -4,6 +4,9 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 
 function App() {
+  <script>
+  AOS.init();
+</script>
   return (
     <div className="App">
       <Header></Header>
