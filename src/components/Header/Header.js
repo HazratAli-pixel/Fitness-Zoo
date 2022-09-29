@@ -9,7 +9,7 @@ const Header = () => {
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
-                    <a className="fs-3 fw-bolder navbar-brand" href="fas">Fitness Zoo</a>
+                    <a className="fs-3 fw-bolder navbar-brand" href="fas">  <img src="gym_icon.png" style={{width:'50px'}} className='rounded-circle ps-1'  alt="" /> Fitness Zoo</a>
                     <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     </ul>
