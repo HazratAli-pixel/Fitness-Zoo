@@ -14,9 +14,15 @@ const Contentsection = () => {
     },[])
 
     const handleClick = (cart) =>{
-        setTime(current=>current+cart.time)
-        console.log(time);
+        setTime(current=>+current+cart.time)
+        localStorage.setItem("ExerciseTime",time);
     }
+    useEffect(()=>{
+        const getExercisetime = localStorage.getItem("ExerciseTime")
+        if(getExercisetime){
+            setTime(getExercisetime)
+        }
+    },[])
 
     return(
         <div className='shop-container container'>

@@ -14,18 +14,21 @@ const Profile = ({time}) => {
             )
     };
     const handleBreak = (e)=>{
-        let value = e.target.value;
-        localStorage.setItem("BreakTime",value);
+        let Breakvalue = e.target.value;
+        localStorage.setItem("BreakTime",Breakvalue);
+        setBreaktime(Breakvalue)
+    }
+    const clearStorate = ()=>{
+        localStorage.clear();
+        setBreaktime(0)
+    }
+
+    useEffect(()=>{
         const getBreaktime = localStorage.getItem("BreakTime")
         if(getBreaktime){
-            // setBreaktime(getBreaktime)
+            setBreaktime(getBreaktime)
         }
-        setBreaktime(value)
-
-    }
-    useEffect(()=>{
-        
-    },[breaktime])
+    },[])
 
 
 
@@ -84,7 +87,8 @@ const Profile = ({time}) => {
                     <p className='m-0'>{breaktime} second</p>
                 </div>
             </div>
-            <div className='pt-5'><button className="btn btn-primary w-100" onClick={notify} >Activity Complited </button></div>
+            <div className='pt-5'><button className="btn btn-warning w-100" onClick={clearStorate} >Clear Storage </button></div>
+            <div className='pt-2'><button className="btn btn-primary w-100" onClick={notify} >Activity Complited </button></div>
         </div>
     );
 };
