@@ -6,7 +6,7 @@ const QuessionPart = () => {
         <div className='container'>
             <div className='row bg-light rounded-3 m-0'>
                 <div className="col-12 p-3 text-start">
-                    <h3 className='bg-dark text-white rounded-3 text-center p-2'>Quession And Answer</h3>
+                    <h3 className='bg-dark text-white rounded-3 text-center p-2'>Question and Answer</h3>
                     <div className='qColor p-2 mb-2'>
                         <h5>How does react work?</h5>
                     </div>
