@@ -3,9 +3,12 @@
   top: 10px;
 }
 .order {
-  border: 1px solid black;
+  border: 1px solid rgba(136, 228, 235, 0.7);
   border-radius: 10px;
 }
 .com_color2 {
   background-color: rgba(206, 206, 206, 0.4);
+}
+.rrr {
+  background-color: rgba(136, 228, 235, 0.2);
 }

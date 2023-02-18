@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Md. Hazrat Ali
+Md. Hazrat Ali,
 BSc in CSE, Daffodil International University
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
